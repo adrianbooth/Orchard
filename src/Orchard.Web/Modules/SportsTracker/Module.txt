@@ -1,10 +1,10 @@
 ﻿Name: SportsTracker
 AntiForgery: enabled
-Author: The Orchard Team
-Website: http://orchardproject.net
+Author: Adrian Booth
+Website: http://adrianbooth.com
 Version: 1.0
-OrchardVersion: 1.0
+OrchardVersion: 1.10
 Description: Description for the module
 Features:
-    SportsTracker:
+    SportsTracker.Football:
         Description: Description for feature SportsTracker.

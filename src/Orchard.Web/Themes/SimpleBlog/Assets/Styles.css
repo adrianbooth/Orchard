@@ -737,7 +737,7 @@ code {
   padding: 0.5em 1em;
   border: 1px solid #bebab0;
 }
-@media screen and (max-device-width: 1200px) {
+@media screen and (max-device-width: 1024px) {
   .container {
     padding: 1em;
     width: 88%;

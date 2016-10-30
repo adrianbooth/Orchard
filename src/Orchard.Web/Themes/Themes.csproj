@@ -88,9 +88,8 @@
   <ItemGroup>
     <Content Include="SimpleBlog\Assets.json" />
     <Content Include="SimpleBlog\Assets\Styles.less" />
-    <Content Include="SimpleBlog\Styles\default.css" />
-    <Content Include="SimpleBlog\Styles\orchard.css" />
-    <Content Include="SimpleBlog\Styles\site.css" />
+    <Content Include="SimpleBlog\Styles\Styles.css" />
+    <Content Include="SimpleBlog\Styles\Styles.min.css" />
     <Content Include="SimpleBlog\Web.config" />
     <Content Include="SimpleBlog\Scripts\Web.config" />
     <Content Include="SimpleBlog\Styles\Web.config" />
@@ -230,6 +229,12 @@
     <Content Include="SimpleBlog\Views\Parts.Common.Metadata.cshtml" />
     <Content Include="SimpleBlog\Views\Parts.Common.Metadata.Summary.cshtml" />
     <Content Include="SimpleBlog\Views\Parts.Tags.ShowTags.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

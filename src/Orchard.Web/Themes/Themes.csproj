@@ -87,7 +87,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="SimpleBlog\Assets.json" />
+    <Content Include="SimpleBlog\Assets\Styles.css">
+      <DependentUpon>Styles.less</DependentUpon>
+    </Content>
     <Content Include="SimpleBlog\Assets\Styles.less" />
+    <Content Include="SimpleBlog\Assets\Styles.min.css">
+      <DependentUpon>Styles.css</DependentUpon>
+    </Content>
     <Content Include="SimpleBlog\Styles\Styles.css" />
     <Content Include="SimpleBlog\Styles\Styles.min.css" />
     <Content Include="SimpleBlog\Web.config" />

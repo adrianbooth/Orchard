@@ -1,0 +1,10 @@
+﻿Name: AdrianBooth.Orchard.Sitemap
+AntiForgery: enabled
+Author: Adrian booth
+Website: http://adrianbooth.com
+Version: 1.0
+OrchardVersion: 1.10
+Description: Adds sitemap functionality to Orchard
+Features:
+    AdrianBooth.Orchard.Sitemap:
+        Description: Description for feature AdrianBooth.Orchard.Sitemap.

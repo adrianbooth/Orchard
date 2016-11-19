@@ -803,16 +803,29 @@ code {
 @media screen and (max-device-width: 1024px) {
     .container {
         padding: 1em;
-        width:88%;
-    }   
-    .column,.double,.triple{
-        width:100%;
+        width: 88%;
+    }
+
+    .column, .double, .triple {
+        width: 100%;
         margin: 10px 0;
     }
-    #header ul{
-            margin: 0 0 0 -30px;
-   padding: 0;
-    float:none;
-    display:block;
+
+    #header ul {
+        margin: 0 0 0 -30px;
+        padding: 0;
+        float: none;
+        display: block;
+    }
+}
+
+article.blog-post {
+    img {
+        width: 100%;
+    }
+
+    p {
+        margin: 0 0 10px;
+        line-height: 2rem;
     }
 }

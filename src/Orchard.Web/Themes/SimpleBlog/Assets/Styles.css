@@ -755,3 +755,10 @@ code {
     display: block;
   }
 }
+article.blog-post img {
+  width: 100%;
+}
+article.blog-post p {
+  margin: 0 0 10px;
+  line-height: 2rem;
+}

@@ -31,13 +31,13 @@ namespace AdrianBooth.Orchard.Sitemap.Services
 
         private string SitemapString()
         {
-            var itemLocations = _contentManager.Query<AutoroutePart, AutoroutePartRecord>()
+            var contentUrls = _contentManager.Query<AutoroutePart, AutoroutePartRecord>()
                   .Where(part => part.DisplayAlias != null).List().Select(e => e.DisplayAlias);
 
             var stringBuilder = new StringBuilder();
             stringBuilder.AppendLine("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
             stringBuilder.AppendLine("<urlset xmlns=\"http://www.google.com/schemas/sitemap/0.90\">");
-            foreach (var url in itemLocations)
+            foreach (var url in contentUrls)
             {
                 stringBuilder.AppendLine($"<url><loc>{url}</loc></url>");
             }

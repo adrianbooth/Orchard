@@ -1,0 +1,5 @@
+Name: Blank
+Author: Adrian Booth
+Description: Blank theme to allow content items to be consumed from other sources easily
+Version: 1.0
+Zones: Content
